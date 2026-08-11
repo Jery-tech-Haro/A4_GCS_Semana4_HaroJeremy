@@ -1,0 +1,14 @@
+{
+  "name": "api-rest-control-cambios",
+  "version": "1.0.0",
+  "description": "API REST de ejemplo para la practica de Control de Cambios (Opcion C: expiracion de tokens y rotacion de llaves).",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "bun run src/server.js",
+    "test": "bun test"
+  },
+  "dependencies": {
+    "jsonwebtoken": "^9.0.2"
+  }
+}
